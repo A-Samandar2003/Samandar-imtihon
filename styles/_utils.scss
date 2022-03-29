@@ -1,0 +1,59 @@
+* {
+  font-family: sans-serif;
+  list-style-type: none;
+}
+
+section {
+  padding: 0em 9%;
+}
+
+body {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+$primary-color: #444B51;
+$danger-color: #E24329;
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width:576px) {
+
+  html {
+    font-size: 30%;
+  }
+
+}
+
+.unversal-title {
+  text-align: center;
+  color: #444B51;
+
+
+  h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 120%;
+  }
+
+  p {
+    margin-top: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+}
+
+
+button{
+  border: none;
+}
